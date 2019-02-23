@@ -21,7 +21,7 @@ database = {'data1': 'value1'}
 # Let's tell our parser what parameters we have.
 # We'll only use two parameters: one for the data key and one for the data value.
 parser.add_argument('key')
-parser.add_argument('parser')
+parser.add_argument('value')
 
 # Let's make an API Resource:
 class API(Resource):
